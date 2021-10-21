@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+/* 全体 */
+body {
+	background-color : #f8f9f9;
+	text-align : center;
+}
+
+/* スタートボタン */
+#startBtn {
+	 background-color : #4CAF50;
+	 border : none;
+	 color : white;
+	 padding : 15px 32px;
+	 text-align : center;
+	 text-decoration : none;
+	 display : inline-block;
+	 font-size : 16px;
+	 margin-left : auto;
+	margin-right : auto;
+}
+
+/* カードエリア */
+.cardZone {
+	float : left;
+	height : 90px;
+	width : 70px;
+	border-style : solid;
+	text-align : center;
+	background-color : #d2b4de;
+}
+
+/* ヒットボタン、スタンドボタン */
+#hitBtn, #standBtn {
+	display : none;
+	background-color :  #b5be69;
+	border : none;
+	color : white;
+	padding : 15px 32px;
+	text-decoration : none;
+	font-size : 16px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+/* プレイヤーの領域、ディーラーの領域 */
+.playerZone, .dealerZone {
+	display : none;
+	float : left;
+	padding : 5px;
+	margin : 10px;
+	height : 450px;
+	width : 300px;
+	border-style : solid;
+}
+
+/* ゲーム領域 */
+#gameZone {
+	width : 50%;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+h3 {
+	background-color : #5dade2;
+}
+
+h2 {
+	padding : 10px;
+	border-style : solid;
+	background-color : #e6b0aa;
+}
+
+#totalValue h3 {
+	background-color : none;
+}
+
+.dealerZone h4 {
+	background-color : #d2b4de;
+}
+
+/* 結果領域 */
+#result {
+	width : 50%;
+	margin-left : auto;
+	margin-right : auto;
+}
